@@ -1,0 +1,28 @@
+app:
+  refresh_minutes: 10
+  default_cutoff_date: 2025-08-15
+  target_dmvs:
+    - Bayonne
+    - Newark
+    - Elizabeth
+    - Lodi
+    - North Bergen
+    - Rahway
+    - Wayne
+    - South Plainfield
+    - Edison
+  enable_email: true
+  headless: true
+  scrape_timeout_ms: 25000
+
+email:
+  host: smtp.gmail.com
+  port: 465
+  user: contact@jisupark.com
+  from: contact@jisupark.com
+  to:
+    - contact@jisupark.com
+  use_tls: true
+  use_starttls: false
+  subject_prefix: "[NJ MVC]"
+  # password intentionally not stored here

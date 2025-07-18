@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual envs
+.venv/
+env/
+venv/
+
+# Environment secrets
+.env
+.env.local
+.env.*.local
+
+# Secret state file (email notification memory)
+notification_state.json
+
+# Streamlit + Playwright caches
+.streamlit/
+playwright/.cache/
+
+# Logs
+logs/
+*.log
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
